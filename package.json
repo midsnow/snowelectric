@@ -1,0 +1,60 @@
+{
+  "name": "snowelectric",
+  "version": "0.0.1",
+  "description": "tv streaming",
+  "main": "electron/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowstreams/snowelectric"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "electron --enable-transparent-visuals --disable-gpu electron/index.js",
+    "postinstall": "./node_modules/.bin/electron-rebuild"
+  },
+  "keywords": [
+    "tv"
+  ],
+  "author": "snowkeeper",
+  "license": "MIT",
+  "jspm": {
+    "directories": {
+      "baseURL": "electron"
+    },
+    "dependencies": {
+      "async": "npm:async@^1.5.0",
+      "classnames": "npm:classnames@^2.2.1",
+      "debug": "npm:debug@^2.2.0",
+      "elemental": "npm:elemental@^0.5.6",
+      "events": "github:jspm/nodelibs-events@^0.1.1",
+      "fetch": "npm:whatwg-fetch@^0.10.0",
+      "hat": "npm:hat@^0.0.3",
+      "history": "npm:history@^1.17.0",
+      "inquisive/react-desktop": "github:inquisive/react-desktop@master",
+      "jquery": "github:components/jquery@^2.1.4",
+      "lodash": "npm:lodash@^3.10.1",
+      "marked": "npm:marked@^0.3.5",
+      "moment": "npm:moment@^2.10.6",
+      "numeral": "npm:numeral@^1.5.3",
+      "path": "github:jspm/nodelibs-path@^0.1.0",
+      "pikaday": "npm:pikaday@^1.4.0",
+      "ratelimit": "npm:ratelimit@^0.0.4",
+      "react": "npm:react@^0.14.0",
+      "react-addons-test-utils": "npm:react-addons-test-utils@^0.14.0",
+      "react-bootstrap": "npm:react-bootstrap@^0.28.1",
+      "react-dom": "npm:react-dom@^0.14.0",
+      "react-iframe": "npm:react-iframe@^0.0.4",
+      "react-router": "npm:react-router@^1.0.0-rc3",
+      "react-select": "npm:react-select@^0.6.5",
+      "socket.io": "npm:socket.io@^1.3.7",
+      "socket.io-client": "npm:socket.io-client@^1.3.7",
+      "striptags": "npm:striptags@^2.0.4",
+      "util": "github:jspm/nodelibs-util@^0.1.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

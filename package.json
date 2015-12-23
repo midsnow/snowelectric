@@ -56,5 +56,10 @@
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
     }
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "electron-prebuilt": "^0.36.1",
+    "lodash": "^3.10.1"
   }
 }
